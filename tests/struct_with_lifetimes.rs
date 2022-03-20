@@ -9,6 +9,6 @@ struct Poop {}
 #[derive(CompareByAddress)]
 #[allow(dead_code)]
 struct Dog<'a, 'b> {
-  poop: &'a Poop,
-  poop2: &'b Poop
+    poop: &'a Poop,
+    poop2: &'b Poop,
 }
