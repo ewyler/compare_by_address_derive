@@ -6,8 +6,7 @@ instance irrespective of content.
 # Example usage
 
 ```
-#[macro_use]
-extern crate compare_by_address_derive;
+use compare_by_address_derive::CompareByAddress;
 
 #[derive(CompareByAddress)]
 struct SomeStruct {
