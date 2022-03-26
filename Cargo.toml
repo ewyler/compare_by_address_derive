@@ -7,10 +7,8 @@ documentation = "https://docs.rs/compare_by_address"
 keywords = ["hash", "pointer", "reference", "derive"]
 license = "MIT / Apache-2.0"
 readme = "README.md"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 by_address = "1.0.4"
